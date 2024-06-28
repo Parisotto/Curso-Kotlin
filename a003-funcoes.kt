@@ -13,6 +13,12 @@ fun main() {
     println(mensagem)
 
     println(olaMundo("Edson Parisotto"))
+
+    println()
+    println(soma(7, 9))
+
+    println()
+    println(multiplica(3, 9))
 }
 
 fun helloWorld() {
@@ -42,3 +48,10 @@ fun olaMundo(): String {
 fun olaMundo(nome: String): String{
     return "Olá, $nome"
 }
+
+fun soma(x:Int, y:Int): Int {
+    val resultado = x + y
+    return resultado
+}
+
+fun multiplica(a: Int, b: Int): Int = a * b
